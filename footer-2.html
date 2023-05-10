@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+    <script src="main.js"></script>
+    <style>
+         @media (max-width: 990px) {
+        .kolom-2 {
+            display: none;
+        }
+    }
+    .kolom-grid {
+        padding: 10px 0;
+    }
+  
+    .kolom-1 {
+        padding-left: 10px;
+    }
+  
+    .kolom-2 {
+        padding-right: 10px;
+    }
+    
+        .medsos ul li{
+            display:inline-block;
+            color: #fff;
+            margin-right: 3px;
+            display : inline-block; 
+        }
+        .medsos ul li a {
+            display:inline-block;
+            display : inline-block; 
+            color:white; 
+            font-size: 16px;
+        }
+        .medsos ul li i{
+            height: 40px;
+            width: 40px;
+            text-align: left;
+            line-height: 38px;
+            border-radius: 50%;
+        }
+        .facebook-bg{
+            background: var(--facebook);
+        }
+        header {
+            text-align: center;
+            padding-top: 100px;
+            margin-bottom: 300px;
+            font-size: 35px;
+        }
+
+        header h2 {
+            color: #f0525f;
+        }
+
+        header span {
+            color: #eaa03f;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/LogoUnri.png" style="padding-left: 30px;" alt="">
+            <img src="img/S1TI.png" style="padding-left: 30px;" alt="">
+          </a>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+      </nav>
+      <!-- navbar -->
+      <nav class="navbar navbar-dark" style="background-color:#0B2447; ">
+        <div class="container-fluid">
+            <div></div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Profil
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                    <li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
+                    <li><a class="dropdown-item" href="#">Tujuan</a></li>
+                    <li><a class="dropdown-item" href="#">Sasaran</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#" >Akademik</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Prestasi</a>
+                </li>
+              </ul>
+        </div>
+      </nav>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://informatika.ft.unri.ac.id/wp-content/uploads/banner-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://informatika.ft.unri.ac.id/wp-content/uploads/banner-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://informatika.ft.unri.ac.id/wp-content/uploads/banner-3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <header>
+        <h2>content</h2>
+        
+    </header>
+    <footer class="bg-black">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 text-white" style="padding-top: 30px; ">
+                        <img src="img/pngwing.com.png" class="card bg-black " alt="...">
+                        <div class=" medsos">
+                            <p class="text-uppercase" style="padding-top: 20pt; padding-left: 20pt; font-family: poppin; ">program studi <br> s1 teknik <br> informatika</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-square-instagram instagram-bg"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube youtube-bg"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-tiktok tiktok-bg"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                                </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-white" style="padding-top: 30px; ">
+                        <h2 style="border-bottom: 2px solid rgb(0, 128, 0); line-height: 50pt; width: 200pt; font-family: poppin;">Kotak</h2>
+                        <ul style="padding-left: 0pt; font-family: poppin;">
+                            <p>Gedung C lantai 2 Fakultas Teknik <br>
+                                Universitas Riau Kampus Binawidya <br>
+                                Jl.HR Soebrantas KM 12,5, Simpang <br>
+                                Baru, Binawidya, Pekanbaru-28293</p>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-white" style="padding-top: 30px;">
+                        <h2 style="border-bottom: 2px solid rgb(0, 128, 0); line-height: 50pt; width: 200pt; font-family: poppin;">Link Terkait</h2>
+                        <ul style="padding-left: 12pt; font-family: poppin;">
+                            <li><a href="#"></a>Beasiswa</li>
+                            <li><a href="#"></a>Berita Terkini</li>
+                            <li><a href="#"></a>Event</li>
+                            <li><a href="#"></a>Pengumuman</li>
+                            
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="footer-buttom-text bg-dark" > 
+            <img src="img/akreditasi-ti-b.png"  class="rounded mx-auto d-block" alt="" style="padding-top: 10pt; padding-bottom: 10pt;">
+        </div>
+    </footer>
+</body>
+</html>
